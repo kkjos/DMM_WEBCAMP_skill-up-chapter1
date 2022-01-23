@@ -3,3 +3,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header {
+  background-color: #ec715f;
+  width: auto;
+  height: 70px;
+}
+.header-item {
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.header-item-logo {
+  width: 180px;
+  height: 70px;
+}
+.nav-list {
+  line-height: 70px;
+}
+.nav-list-item {
+  display: inline-block;
+  color: #fafafa;
+  font-size: 16px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
