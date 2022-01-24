@@ -48,3 +48,37 @@ header {
   margin-top: 10px;
   font-size: 20px;
 }
+
+.portfolio {
+  background-color: #eceff1;
+}
+.container {
+  width: 920px;
+  margin: 0 auto;
+  padding: 90px 0;
+  text-align: center;
+}
+.heading {
+  font-size: 32px;
+  color: #000000;
+  display: inline-block;
+  padding-bottom: 8px;
+  position: relative;
+}
+.heading::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  display: inline-block;
+  width: 70px;
+  height: 3px;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #ec715f;
+}
+.heading-text {
+  font-size: 16px;
+  color: #000000;
+  padding: 30px 0;
+}
