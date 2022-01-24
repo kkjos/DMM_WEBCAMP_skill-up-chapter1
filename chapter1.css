@@ -82,3 +82,36 @@ header {
   color: #000000;
   padding: 30px 0;
 }
+.production {
+  display: flex;
+  flex-wrap: wrap;
+}
+.production-img {
+  width: 300px;
+  padding-top: 250px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+}
+.production-img:nth-child(1) {
+  background-image: url(chapter1_img/sketch.jpg);
+}
+.production-img:nth-child(2) {
+  background-image: url(chapter1_img/websuku.png);
+  margin: 0 10px;
+  margin-bottom: 10px;
+}
+.production-img:nth-child(3) {
+  background-image: url(chapter1_img/write.jpg);
+}
+.production-img:nth-child(4) {
+  background-image: url(chapter1_img/webcamp.png);
+}
+.production-img:nth-child(5) {
+  background-image: url(chapter1_img/talk.jpg);
+  margin: 0 10px;
+  margin-bottom: 10px;
+}
+.production-img:nth-child(6) {
+  background-image: url(chapter1_img/webcamp-mother.png);
+}
