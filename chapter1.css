@@ -29,3 +29,22 @@ header {
   margin-right: 30px;
   margin-left: 30px;
 }
+
+.main-visual {
+  background-image: url(chapter1_img/mv.png);
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+}
+.main-visual-text {
+  color: #fafafa;
+  padding-top: 200px;
+  text-align: center;
+}
+.mv-title {
+  font-size: 64px;
+}
+.mv-text {
+  margin-top: 10px;
+  font-size: 20px;
+}
