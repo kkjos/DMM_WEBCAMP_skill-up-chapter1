@@ -52,7 +52,7 @@ header {
 .portfolio {
   background-color: #eceff1;
 }
-.container {
+.portfolio-container {
   width: 920px;
   margin: 0 auto;
   padding: 90px 0;
@@ -114,4 +114,36 @@ header {
 }
 .production-img:nth-child(6) {
   background-image: url(chapter1_img/webcamp-mother.png);
+}
+
+.feature-container {
+  width: 980px;
+  margin: 0 auto;
+  padding: 90px 0;
+  text-align: center;
+}
+.strength-group {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+.strength {
+  width: 320px;
+  height: auto;
+}
+.strength:nth-child(2) {
+  margin: 0 10px;
+}
+.fas {
+  font-size: 60px;
+}
+.strength-title {
+  font-size: 20px;
+  color: #000000;
+  padding: 10px 0;
+}
+.strength-text {
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
 }
