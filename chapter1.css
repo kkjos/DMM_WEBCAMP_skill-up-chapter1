@@ -187,3 +187,34 @@ header {
   font-size: 16px;
   padding: 5px 0;
 }
+
+.contact {
+  background-color: #fafafa;
+}
+.contact-container {
+  width: 800px;
+  margin: 0 auto;
+  padding: 90px 0;
+  text-align: center;
+}
+.contact-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact-left {
+  width: 400px;
+}
+.contact-mail {
+  padding-bottom: 20px;
+}
+.contact-title {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.contact-right {
+  width: 400px;
+}
+.fab {
+  font-size: 50px;
+  padding-right: 5px;
+}
