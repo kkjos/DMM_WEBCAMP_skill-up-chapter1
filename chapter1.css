@@ -311,4 +311,19 @@ footer {
   .strength:nth-child(2) {
     margin: 10px 0;
   }
+
+  .profile-container {
+    width: 100%;
+  }
+  .profile-group {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .profile-left {
+    width: 100%;
+  }
+  .profile-right {
+    width: 100%;
+    text-align: left;
+  }
 }
