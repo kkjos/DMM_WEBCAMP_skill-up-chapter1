@@ -278,6 +278,7 @@ footer {
   .mv-text {
     font-size: 18px;
   }
+
   .portfolio-container {
     width: 90%;
   }
@@ -285,7 +286,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
   }
-  .production-img { 
+  .production-img {
     margin: 0 auto;
     margin-bottom: 10px;
   }
@@ -294,5 +295,20 @@ footer {
   }
   .production-img:nth-child(5) {
     margin-left: 18.75px;
+  }
+
+  .feature-container {
+    width: 100%;
+  }
+  .strength-group {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .strength {
+    width: 100%;
+  }
+  .strength:nth-child(2) {
+    margin: 10px 0;
   }
 }
