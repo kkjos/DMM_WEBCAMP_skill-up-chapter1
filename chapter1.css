@@ -326,4 +326,29 @@ footer {
     width: 100%;
     text-align: left;
   }
+
+  .contact-container {
+    width: 100%;
+  }
+  .contact-group {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contact-mail {
+    padding-bottom: 20px;
+  }
+  .contact-tel {
+    padding-bottom: 20px;
+  }
+  .contact-title {
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+  .contact-right {
+    width: 400px;
+  }
+  .fab {
+    font-size: 50px;
+    padding-right: 5px;
+  }
 }
