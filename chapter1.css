@@ -278,4 +278,21 @@ footer {
   .mv-text {
     font-size: 18px;
   }
+  .portfolio-container {
+    width: 90%;
+  }
+  .production {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .production-img { 
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .production-img:nth-child(2) {
+    margin-left: 18.75px;
+  }
+  .production-img:nth-child(5) {
+    margin-left: 18.75px;
+  }
 }
